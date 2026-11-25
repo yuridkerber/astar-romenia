@@ -1,11 +1,15 @@
 from mapa import mapa_romenia, heuristica_bucareste
 
+"""essa função calcula apenas o custo de uma estrada até a outra.
+e retorna *none* se não forem vizinhas"""
 def custo_da_estrada(origem, destino):
-    for vizinho, custo in mapa_romenia[origem]:
+    for vizinho, custo in mapa_romenia[origem]:0
         if vizinho == destino:
             return custo
     return None
 
+"""essa função cria um laço que vai somando todos os caminhos
+até o destino final""" 
 def custo_do_caminho(caminho):
     total = 0
     for i in range(len(caminho) - 1):
