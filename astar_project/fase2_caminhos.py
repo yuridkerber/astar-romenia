@@ -13,8 +13,7 @@ def custo_do_caminho(caminho):
     return total
 
 print('Arad -> Sibiu custa', custo_da_estrada('Arad', 'Sibiu'), 'km')
-print('Arad -> Bucharest custa', custo_da_estrada('Arad', 'Bucharest'),
-      '(não existe estrada direta)')
+print('Arad -> Bucharest custa', custo_da_estrada('Arad', 'Bucharest'),'(não existe estrada direta)')
 
 por_fagaras = ['Arad', 'Sibiu', 'Fagaras', 'Bucharest']
 por_pitesti = ['Arad', 'Sibiu', 'Rimnicu Vilcea', 'Pitesti', 'Bucharest']

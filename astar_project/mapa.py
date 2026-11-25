@@ -35,3 +35,10 @@ from mapa import mapa_romenia, heuristica_bucareste
 
 print('Quantidade de cidades no mapa:', len(mapa_romenia))
 print('Quantidade de valores de h(n):', len(heuristica_bucareste))
+
+print(f'\nentão é um dicionário (mapa_romenia) com listas (Arad, Zerind etc) e tuplas dentros dessas listas')
+print(f'\nlista -> {mapa_romenia["Arad"]}')
+vizinho_arad = mapa_romenia["Arad"]
+print(f'tupla -> {vizinho_arad[0]}')
+tupla_arad = vizinho_arad[0]
+print(f'itens em uma tupla -> item 1 ->> {tupla_arad[0]} item 2 ->> {tupla_arad[1]}')
