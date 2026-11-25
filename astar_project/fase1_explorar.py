@@ -5,8 +5,8 @@ print('Quantidade de valores de h(n):', len(heuristica_bucareste))
 
 vizinhos_arad = mapa_romenia['Arad']
 print()
-print('Vizinhos de Arad:', vizinhos_arad)
-print('Tipo do valor:', type(vizinhos_arad))
+print('+Vizinhos de Arad: ', vizinhos_arad)
+print('Tipo do valor: ', type(vizinhos_arad))
 
 primeira = vizinhos_arad[0]
 print()
